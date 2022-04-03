@@ -1,0 +1,6 @@
+[submodule "backend"]
+	path = backend
+	url = git@github.com:shivang2000/twitterclone-backend.git
+[submodule "frontend"]
+	path = frontend
+	url = git@github.com:shivang2000/twitterclone-frontend.git
