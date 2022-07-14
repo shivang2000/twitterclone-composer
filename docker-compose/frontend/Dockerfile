@@ -7,7 +7,7 @@ WORKDIR /frontend
 COPY ./frontend/package.json package.json
 
 # install dependencies
-RUN npm install
+RUN yarn install
 
 # 
 RUN ls
@@ -18,4 +18,4 @@ RUN ls
 
 EXPOSE 3000
 
-CMD [ "npm", "run", "dev" ]
+CMD [ "yarn", "run", "dev" ]
